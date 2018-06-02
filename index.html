@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="box">
+                <h4>BOX 1</h4>
+                <ul id="b1" ondrop="drop(event)" ondragover="allowDrop(event)" class="list"></ul>
+            </div>
+            <div class="box">
+                <h4>BOX 2</h4>
+                <ul id="b2" ondrop="drop(event)" ondragover="allowDrop(event)" class="list"></ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <h4>BOX 3</h4>
+                <ul id="b3" ondrop="drop(event)" ondragover="allowDrop(event)" class="list"></ul>
+            </div>
+            <div class="box">
+                <h4>BOX 4</h4>
+                <ul id="b4" ondrop="drop(event)" ondragover="allowDrop(event)" class="list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
